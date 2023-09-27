@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Josefin+Sans:wght@700&display=swap"
+        rel="stylesheet">
+    <title>Informações dos Clientes</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="logo uniasselvi.png">
+        </div>
+        <div class="divbuttonhead">
+            <button onclick="location.href='lista.html'" class="buttonhead">Voltar</button>
+            <button onclick="location.href='login.html'" class="buttonhead">Sair</button>
+        </div>
+    </header>
+    <main>
+        <h1>
+            Lista de Clientes
+        </h1>
+        <table align="center">
+            <tr align="right">
+                <td class="tdtitle">Clientes </td>
+                <td>
+                    <input type="search" id="search" class="name-padrao" required">
+                    <button>&#x1F50E;</button>
+                    <div class="select">
+                        <select name="cliente" id="cliente">
+                            <option value="option1">Order by</option>
+                            <option value="option2">A - Z</option>
+                            <option value="option3">Z - A</option>
+                            <option value="option4"> Mais Recente</option>
+                            <option value="option4"> Mais Antigo</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <li>Carlos Almeida</li>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <li>Jose Pereira</li>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <li>Julesca Betina</li>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <li>Pedrinho RJ</li>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <li>Vitoria Dantas</li>
+                </td>
+            </tr>
+
+        </table>
+
+        <div class="buttons"><button onclick="location.href='detalhes.html'" type="submit"
+                style="padding: 20px;">Informações Detalhadas</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <img src="logoHtml.png" style="width: 5%;padding: 20px;">
+        <p class="copyright">&copy; Copyright Erick Gabriel - 2023</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+body{
+    background-image: linear-gradient( #000000, #9d9d9d);
+    font-family: 'Hind', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: #3b3b3b;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    & img{
+        width: 20%;
+        padding:20px 20px 20px 100px;
+    }
+}
+main{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+form{display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 550px;
+    height: 300px;
+    font-size: 20px;
+    box-shadow: 2px 2px 10px #9b9b9b;
+    justify-content: center;
+}
+h1{
+    font-size: 50px;
+    color:#ffffff;
+    padding: 50px;
+    text-shadow: 2px 2px 10px #acacac;
+}
+h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+table{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #9b9b9b;
+   & td{
+    padding: 30px;
+   }
+}
+footer{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color: #3b3b3b;
+    & p{
+        color: #ffffff;
+    }
+}
+input{
+    width: 250px;
+    height: 20px;
+    border-radius:10px;
+    
+}
+button{
+    border-radius: 10px;
+    background-color: #e3fdfc;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #9b9b9b;
+}
+button:hover{
+    background-color: #c9e0e0;
+}
+.buttons{
+    padding: 20px;
+    
+}
+.formcad{
+    display: flex;
+    width: 100%;
+    justify-items: start;
+
+}
+.divlabel{
+    padding: 10px;
+}
+.radio{
+    width: 25px;
+    height: 15px;
+}
+.divradio{
+    padding-top: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+.buttonhead{
+    width: 100px;
+}
+.divbuttonhead{
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+.tdtitle{
+    font-size: 24px;
+}
+#cliente{
+   background-color: #d7f0f0;
+   border-radius: 5px;
+   padding: 10px;
+   font-family: 'Josefin Sans', sans-serif;
+   border:2px solid black;
+   
+   box-shadow: 1px 1px 5px #9b9b9b;
+
+
+}
+@media screen and (max-width:400px){
+    body{
+        height: auto;
+    }
+    form{
+        width: 100%;
+        align-items: center;
+    }
+    header{
+        height:200px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        & img{
+            width: 40%;
+            padding: 110px;
+        }
+        
+    }
+    footer{
+        flex-direction: column;
+    }
+
+}
+

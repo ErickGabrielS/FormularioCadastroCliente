@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Josefin+Sans:wght@700&display=swap"
+        rel="stylesheet">
+    <title>Cadastro de Clientes</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="logo uniasselvi.png">
+        </div>
+        <div class="divbuttonhead">
+            <button onclick="location.href='detalhes.html'" class="buttonhead">Voltar</button>
+            <button onclick="location.href='login.html'" class="buttonhead">Sair</button>
+        </div>
+    </header>
+
+    <main>
+        <h1>Cadastro de Clientes</h1>
+        <form style="height: auto;">
+            <h2>Cadastro</h2>
+
+            <fieldset class="formcad">
+                <div class="divlabel">
+                    <label for="name">Nome e Sobrenome:</label>
+                    <input type="text" id="name" class="name-padrao" required placeholder="Digite seu nome aqui...">
+                </div>
+                <div class="divlabel">
+                    <label for="email">CPF:</label>
+                    <input type="tel" id="tel" class="input-padrao" required placeholder="Digite sua senha aqui...">
+                </div>
+            </fieldset>
+
+            <fieldset class="formcad">
+                <div class="divlabel">
+                    <label for="nomesobrenome">Email</label>
+                    <input type="email" id="email" class="tel-padrao" required placeholder="Digite seu número aqui...">
+                </div>
+                <div class="divlabel">
+                    <label for="email">Telefone</label>
+                    <input type="tel" id="tel" class="tel-padrao" required placeholder="Digite seu CPF aqui...">
+                </div>
+            </fieldset>
+            <div style="width:100%;">
+                <div class="divradio">
+                    <label> Qual seu nível em HTML?</label>
+                    <label style="padding-left: 10px;">
+                        <input type="checkbox" id="devhtml" class="radio">Baixo
+                    </label>
+                    <label>
+                        <input type="checkbox" id="devhtml" class="radio">Médio
+                    </label>
+                    <label>
+                        <input type="checkbox" id="devhtml" class="radio">Alto
+                    </label>
+                </div>
+                <div class="divradio">
+                    <label> Qual seu nível em CSS?</label>
+                    <label style="padding-left: 32px;">
+                        <input type="checkbox" id="devhtml" class="radio">Baixo
+                    </label>
+                    <label>
+                        <input type="checkbox" id="devhtml" class="radio">Médio
+                    </label>
+                    <label>
+                        <input type="checkbox" id="devhtml" class="radio">Alto
+                    </label>
+                </div>
+                <div class="divradio">
+                    <label> Qual seu nível em JS?</label>
+                    <label style="padding-left: 50px;">
+                        <input type="checkbox" id="devhtml" class="radio">Baixo
+                    </label>
+                    <label>
+                        <input type="checkbox" id="devhtml" class="radio">Médio
+                    </label>
+                    <label>
+                        <input type="checkbox" id="devhtml" class="radio">Alto
+                    </label>
+                </div>
+            </div>
+            <div class="buttons"><button type="reset">Limpar</button> <button>Criar</button></div>
+
+        </form>
+    </main>
+
+    <footer>
+        <img src="logoHtml.png" style="width: 5%;padding: 20px;">
+        <p class="copyright">&copy; Copyright Erick Gabriel - 2023</p>
+    </footer>
+</body>
+
+</html>
